@@ -28,8 +28,3 @@ with open("output_file.txt", "w") as file:
 			file.write(str(result))
 		else:
 			file.write(str(result) + ', ')
-
-
-with open("output.txt", "w") as file:
-	for i in range(5):
-		file.write(str(i))
